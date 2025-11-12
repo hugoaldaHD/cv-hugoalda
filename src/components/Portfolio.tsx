@@ -50,7 +50,7 @@ export function Portfolio() {
             Algunos de mis proyectos más destacados
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {projects.map((project, index) => (
             <Card
               key={index}
@@ -110,7 +110,7 @@ export function Portfolio() {
               </CardContent>
             </Card>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );
